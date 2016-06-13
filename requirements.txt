@@ -1,0 +1,4 @@
+Cython>=0.24
+gevent>=1.1.1
+greenlet>=0.4.9
+lxml>=3.6.0
