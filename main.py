@@ -140,7 +140,6 @@ class UrlsHandler(object):
         except urllib2.URLError, e:
             log.error("%s 访问错误 %s" % (url, str(e)))
         except Exception, e:
-            import ipdb; ipdb.set_trace();
             log.error("%s 访问异常" % (url, str(e)))
         return True
 
